@@ -1,0 +1,38 @@
+<!-- semanctic tags -->
+<!-- style tag in head file-->
+<!-- color the line and background color  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic tags</title>
+    <!-- in internal css we are giving black and in inline css we are giving red so it will take inline css that is red -->
+    <!-- but if we remove the inline css that is red color line then it will shhow the black color -->
+    <!--we are including external css  -->
+ <style>
+         p{
+            color: black ;
+             /* write !important if you want to dominate external css even if it is written below the internal css */
+            background-color: blue !important;
+         }
+    </style>
+    <!-- write the external css below the internal css if we want external css to get executed not internal css and vice versa also true -->
+    <link rel="stylesheet" href="intro.css"> 
+</head>
+<body>
+    <strong>Semantic tags</strong>
+    <details>
+        <summary>this is a summary this is a summary this is a summary</summary>
+      this is a summary  
+      this is a summary  
+      this is a summary  
+      this is a summary  
+      this is a summary  
+    </details>
+    <!-- inline css means declare color along with the line -->
+    <p style="color: red;background-color: sandybrown;"> this is a paragraph</p>
+ <p>this tutorial will tell you about the css</p> 
+</body>
+</html>

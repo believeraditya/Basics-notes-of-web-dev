@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* means make all the paragraphs border color */
+        p{
+            border: 2px solid red;
+        }
+        /* means find id name redElement and made it's color blue */
+       #redElement{
+            background-color: blue;
+        }
+        /*means find class name bgBlue and made it's color brown  */
+        .bgBlue{
+           color:brown;
+        }
+        /* as it is inside style so commenting out is different in css and html as we can see from both the symbols */
+        /* grouping of selectors as we are grouping footer and span at the same time */
+        footer, span{
+             background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <strong>CSS Selectors</strong>
+    <p>this is a css selector tutorial</p>
+    <div>
+    <p>this is a css selector tutorial</p>
+    <p id="redElement">this is a css selector tutorial</p>
+    <p class="bgBlue">this is a css selector tutorial</p> 
+    <p class="bgBlue" id="redElement">this is a css selector tutorial</p>
+  <span> this is span</span>    
+</div>
+    <!-- footer so it will be in the last -->
+    <footer>This is footer</footer>
+</body>
+</html>
